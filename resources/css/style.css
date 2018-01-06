@@ -328,3 +328,56 @@ header {
     margin-right: 10px;
     
 }
+
+/*#####################################*/
+
+/*############## Cities ###############*/
+
+/*#####################################*/
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    
+}
+
+.box {
+    padding: 1%;
+}
+
+.city-feature {
+    margin-bottom: 5px;
+}
+
+/*-------------- Icons ----------------*/
+
+.city-feature a:link, a:visited {
+    color: #e67e22;
+    text-decoration: none;
+    border-bottom: 1px solid #e67e22;
+/*    -webkit-transition: border-bottom 0.3s, color 0.3s;*/
+    transition: border-bottom 0.3s, color 0.3s;
+}
+
+.city-feature a:hover, a:active {
+    color: #666;
+    border-bottom: 1px solid transparent;
+}
+  
+/*-------------------------------------*/
+
+.icon-small{
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #e67e22;
+    font-size: 120%;
+    margin-right: 10px;
+    
+/* align text and icons
+    line-height: 120%;
+    vertical-align: middle;
+*/
+    margin-top: -5px;
+}
